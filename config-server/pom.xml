@@ -12,8 +12,8 @@
     <groupId>com.digitalworld.dgtalnote</groupId>
     <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Configuration Server</name>
-    <description>Configuration Server</description>
+    <name>configuration server</name>
+    <description>configuration server</description>
     <licenses>
         <license>
             <name>GNU Lesser General Public License, Version 3</name>
@@ -46,12 +46,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
     <dependencyManagement>

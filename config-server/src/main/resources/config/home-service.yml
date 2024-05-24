@@ -4,3 +4,5 @@ management:
       exposure:
         include: '*'
     enabled-by-default: true
+server:
+  port: ${HOME_SERVICE_PORT:18080}
